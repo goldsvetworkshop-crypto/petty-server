@@ -1,0 +1,32 @@
+{
+  "name": "@goldsvetworkshop/petty-server",
+  "version": "1.0.0",
+  "description": "Server-side HTTP 402 middleware for monetizing APIs with autonomous AI micro-payments",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "ai",
+    "x402",
+    "micropayments",
+    "express",
+    "middleware",
+    "viem",
+    "base"
+  ],
+  "author": "goldsvetworkshop-crypto",
+  "license": "MIT",
+  "dependencies": {
+    "@goldsvetworkshop/petty": "^1.0.0",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "express": "^4.21.0",
+    "typescript": "^5.5.0"
+  }
+}
